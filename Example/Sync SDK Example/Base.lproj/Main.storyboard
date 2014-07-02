@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8YX-ce-x5E">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Streaming View Controller - Second-->
+        <scene sceneID="ot8-2e-RuS">
+            <objects>
+                <viewController title="Second" id="QUy-BD-bpt" customClass="BBStreamingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FgS-U6-xeU"/>
+                        <viewControllerLayoutGuide type="bottom" id="stI-4g-hlJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWr-32-Qhy">
+                                <rect key="frame" x="82" y="123" width="20" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NG0-Yz-KDr">
+                                <rect key="frame" x="82" y="170" width="21" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWF-yC-bP9">
+                                <rect key="frame" x="82" y="217" width="21" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpy-BS-qmD">
+                                <rect key="frame" x="110" y="109" width="190" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="DAC-gt-3yr"/>
+                                    <constraint firstAttribute="width" constant="190" id="Eef-Oc-bT2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" red="0.33141342470000001" green="0.33141342470000001" blue="0.33141342470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJt-F0-BX1">
+                                <rect key="frame" x="110" y="156" width="190" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="D22-4I-0cw"/>
+                                    <constraint firstAttribute="width" constant="190" id="xLP-Jq-Ege"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" red="0.33141342470000001" green="0.33141342470000001" blue="0.33141342470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKd-AV-PzL">
+                                <rect key="frame" x="110" y="203" width="190" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="190" id="UHp-K9-hrb"/>
+                                    <constraint firstAttribute="height" constant="55" id="wfh-00-4QF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <color key="textColor" red="0.33141342470000001" green="0.33141342470000001" blue="0.33141342470000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xKd-AV-PzL" firstAttribute="top" secondItem="rJt-F0-BX1" secondAttribute="bottom" constant="-8" id="2R2-UL-4wi"/>
+                            <constraint firstItem="xKd-AV-PzL" firstAttribute="leading" secondItem="OWF-yC-bP9" secondAttribute="trailing" constant="7" id="4hs-iY-MEt"/>
+                            <constraint firstItem="rJt-F0-BX1" firstAttribute="top" secondItem="Kpy-BS-qmD" secondAttribute="bottom" constant="-8" id="60D-5Q-2R0"/>
+                            <constraint firstItem="Kpy-BS-qmD" firstAttribute="leading" secondItem="GWr-32-Qhy" secondAttribute="trailing" constant="8" id="68O-CC-Met"/>
+                            <constraint firstItem="OWF-yC-bP9" firstAttribute="top" secondItem="NG0-Yz-KDr" secondAttribute="bottom" constant="8" id="MO4-TI-itK"/>
+                            <constraint firstItem="OWF-yC-bP9" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="82" id="Ng3-n4-f6H"/>
+                            <constraint firstItem="GWr-32-Qhy" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="82" id="Nud-x9-21Z"/>
+                            <constraint firstItem="NG0-Yz-KDr" firstAttribute="leading" secondItem="gMD-aP-Fq6" secondAttribute="leading" constant="82" id="UZd-DE-42b"/>
+                            <constraint firstItem="GWr-32-Qhy" firstAttribute="top" secondItem="FgS-U6-xeU" secondAttribute="bottom" constant="103" id="Yrb-SO-Q7n"/>
+                            <constraint firstItem="NG0-Yz-KDr" firstAttribute="top" secondItem="GWr-32-Qhy" secondAttribute="bottom" constant="8" id="dqC-IT-VsJ"/>
+                            <constraint firstItem="rJt-F0-BX1" firstAttribute="leading" secondItem="NG0-Yz-KDr" secondAttribute="trailing" constant="7" id="hab-lw-Y8Z"/>
+                            <constraint firstItem="Kpy-BS-qmD" firstAttribute="top" secondItem="FgS-U6-xeU" secondAttribute="bottom" constant="89" id="lW7-ed-iSR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Streaming Client" image="second" id="Z7h-1E-pvt"/>
+                    <connections>
+                        <outlet property="pressureLabel" destination="xKd-AV-PzL" id="JrD-F1-3BW"/>
+                        <outlet property="xLabel" destination="Kpy-BS-qmD" id="5fy-bC-JNd"/>
+                        <outlet property="yLabel" destination="rJt-F0-BX1" id="Zpd-w6-cEF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="498"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Vex-rW-GRa">
+            <objects>
+                <tabBarController id="8YX-ce-x5E" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="JQR-rB-NYL">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mzQ-yf-2OA" kind="relationship" relationship="viewControllers" id="cUq-k6-ldj"/>
+                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="180"/>
+        </scene>
+        <!--File Transfer View Controller-->
+        <scene sceneID="1Pi-U6-wxk">
+            <objects>
+                <tableViewController id="xCL-bd-pHo" customClass="BBFileTransferViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HsJ-pE-G9c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BBFileTransferCell" textLabel="mBj-AL-5ZY" detailTextLabel="Zbr-Ml-M17" style="IBUITableViewCellStyleSubtitle" id="MAT-dv-dIg">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MAT-dv-dIg" id="pdE-fj-Gmz">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mBj-AL-5ZY">
+                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zbr-Ml-M17">
+                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xCL-bd-pHo" id="UR2-QH-alT"/>
+                            <outlet property="delegate" destination="xCL-bd-pHo" id="avp-gh-GxT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="AQI-k1-8JX">
+                        <barButtonItem key="leftBarButtonItem" title="Parent Folder" id="LEG-00-GmH">
+                            <connections>
+                                <action selector="parentButtonClicked:" destination="xCL-bd-pHo" id="n3I-ed-yQX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCI-4V-K6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1179" y="-172"/>
+        </scene>
+        <!--Navigation Controller - File Transfer Client-->
+        <scene sceneID="z3k-QE-sQi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mzQ-yf-2OA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="File Transfer Client" image="first" id="Mxu-Fa-imf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k9S-Vs-YjK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xCL-bd-pHo" kind="relationship" relationship="rootViewController" id="r3Z-53-1kD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="an3-KU-IH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-172"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
