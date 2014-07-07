@@ -151,7 +151,9 @@ NSString * const BBSyncStreamingClientDidSave = @"BBSyncStreamingClientDidSave";
                 
                 // Send information to the delegate that is set.
                 if(self.delegate) {
-                    [self.delegate streamingClient:self didReceiveCaptureMessage:captureMessage];
+                    if([self.delegate respondsToSelector:@selector(streamingClient:didReceiveCaptureMessage:)]) {
+                        [self.delegate streamingClient:self didReceiveCaptureMessage:captureMessage];
+                    }
                     
                     if([captureMessage hasEraseFlag]) {
                         [self.delegate syncWasErased];
