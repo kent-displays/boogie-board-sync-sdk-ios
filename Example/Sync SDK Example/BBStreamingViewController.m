@@ -7,7 +7,7 @@
 //
 
 #import "BBStreamingViewController.h"
-#import "BBSync.h"
+#import "BBSyncSDK.h"
 
 @interface BBStreamingViewController () <BBSyncStreamingClientDelegate>
 

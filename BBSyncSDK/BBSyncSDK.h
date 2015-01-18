@@ -18,20 +18,15 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-extern char const FEND;
-extern char const FESC;
-extern char const TFEND;
-extern char const TFESC;
-extern char const INTERRUPT_CHANNEL;
-extern char const CONTROL_CHANNEL;
-extern char const REQUEST_REPORT_ID;
+#import <Foundation/Foundation.h>
+#import <Availability.h>
 
-@interface HIDUtilities : NSObject
+#ifndef _BBSYNCSDK_
+#define _BBSYNCSDK_
 
-+ (NSData *)removeEscapeFromData:(NSData *)data;
-+ (NSData *)escapeData:(NSData *)data;
-+ (unsigned short)CRC8OnData:(NSData *)data;
-+ (NSData *)framedData:(NSData *)data;
-+ (NSArray *)parsedMessagesFromData:(NSData *)data;
+#import "BBSessionController.h"
+#import "BBSyncCaptureMessage.h"
+#import "BBSyncFileTransferClient.h"
+#import "BBSyncStreamingClient.h"
 
-@end
+#endif /* _BBSYNCSDK_ */

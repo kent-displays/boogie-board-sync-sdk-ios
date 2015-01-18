@@ -7,7 +7,7 @@
 //
 
 #import "BBFileTransferViewController.h"
-#import "BBSync.h"
+#import "BBSyncSDK.h"
 
 @interface BBFileTransferViewController () <BBSyncFileTransferClientDelegate>
 - (IBAction)parentButtonClicked:(id)sender;

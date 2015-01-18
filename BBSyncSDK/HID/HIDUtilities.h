@@ -18,26 +18,22 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-static const char TARGET = 0x46;
-static const char CONNECTION_ID = 0xCB;
-static const char NAME = 0x01;
-static const char DEST_NAME = 0x015;
-static const char TYPE = 0x42;
-static const char WHO = 0x4A;
-static const char BODY = 0x48;
-static const char END_OF_BODY = 0x49;
-static const char LENGTH = 0xC3;
-static const char DESCRIPTION = 0x05;
+#import <Foundation/Foundation.h>
 
-@interface OBEXFileTransferHeader : NSObject
+extern char const FEND;
+extern char const FESC;
+extern char const TFEND;
+extern char const TFESC;
+extern char const INTERRUPT_CHANNEL;
+extern char const CONTROL_CHANNEL;
+extern char const REQUEST_REPORT_ID;
 
-@property NSUInteger length;
-@property NSData *data;
-@property char identifier;
+@interface HIDUtilities : NSObject
 
-- (id)initWithIdentifier:(char)identifier;
-- (id)initWithIdentifier:(char)identifier body:(NSData *)body;
-- (id)initWithIdentifier:(char)identifier name:(NSString *)name;
-- (NSData *)byteArray;
++ (NSData *)removeEscapeFromData:(NSData *)data;
++ (NSData *)escapeData:(NSData *)data;
++ (unsigned short)CRC8OnData:(NSData *)data;
++ (NSData *)framedData:(NSData *)data;
++ (NSArray *)parsedMessagesFromData:(NSData *)data;
 
 @end

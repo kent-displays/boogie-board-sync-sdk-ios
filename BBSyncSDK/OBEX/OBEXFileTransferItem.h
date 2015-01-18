@@ -18,6 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#import <Foundation/Foundation.h>
+
 /**
  *  The 'OBEXFileTransferItem' is the base class for an item returned from the
  *  OBEXFileTransferFolderListing object.

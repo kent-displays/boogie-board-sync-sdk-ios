@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410215CC1A6C534100DB71EC /* BBFiltering.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215A01A6C534100DB71EC /* BBFiltering.m */; };
+		410215CD1A6C534100DB71EC /* BBSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215A21A6C534100DB71EC /* BBSessionController.m */; };
+		410215CE1A6C534100DB71EC /* BBSyncCaptureMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215A51A6C534100DB71EC /* BBSyncCaptureMessage.m */; };
+		410215CF1A6C534100DB71EC /* BBSyncFileTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215A71A6C534100DB71EC /* BBSyncFileTransferClient.m */; };
+		410215D01A6C534100DB71EC /* BBSyncStreamingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215AA1A6C534100DB71EC /* BBSyncStreamingClient.m */; };
+		410215D11A6C534100DB71EC /* HIDDataMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215AE1A6C534100DB71EC /* HIDDataMessage.m */; };
+		410215D21A6C534100DB71EC /* HIDGetReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215B01A6C534100DB71EC /* HIDGetReport.m */; };
+		410215D31A6C534100DB71EC /* HIDHandshake.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215B21A6C534100DB71EC /* HIDHandshake.m */; };
+		410215D41A6C534100DB71EC /* HIDMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215B41A6C534100DB71EC /* HIDMessage.m */; };
+		410215D51A6C534100DB71EC /* HIDSetReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215B61A6C534100DB71EC /* HIDSetReport.m */; };
+		410215D61A6C534100DB71EC /* HIDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215B81A6C534100DB71EC /* HIDUtilities.m */; };
+		410215D71A6C534100DB71EC /* OBEXFileTransferFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215BB1A6C534100DB71EC /* OBEXFileTransferFile.m */; };
+		410215D81A6C534100DB71EC /* OBEXFileTransferFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215BD1A6C534100DB71EC /* OBEXFileTransferFolder.m */; };
+		410215D91A6C534100DB71EC /* OBEXFileTransferFolderListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215BF1A6C534100DB71EC /* OBEXFileTransferFolderListing.m */; };
+		410215DA1A6C534100DB71EC /* OBEXFileTransferFolderListingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215C11A6C534100DB71EC /* OBEXFileTransferFolderListingParser.m */; };
+		410215DB1A6C534100DB71EC /* OBEXFileTransferHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215C31A6C534100DB71EC /* OBEXFileTransferHeader.m */; };
+		410215DC1A6C534100DB71EC /* OBEXFileTransferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215C51A6C534100DB71EC /* OBEXFileTransferItem.m */; };
+		410215DD1A6C534100DB71EC /* OBEXFileTransferRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215C71A6C534100DB71EC /* OBEXFileTransferRequest.m */; };
+		410215DE1A6C534100DB71EC /* OBEXFileTransferResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215C91A6C534100DB71EC /* OBEXFileTransferResponse.m */; };
+		410215DF1A6C534100DB71EC /* OBEXFileTransferUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 410215CB1A6C534100DB71EC /* OBEXFileTransferUtilities.m */; };
 		A831276319635A7F0072815B /* BBStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A831276219635A7F0072815B /* BBStreamingViewController.m */; };
 		A8E269DC196332FE006DD5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E269DB196332FE006DD5B9 /* Foundation.framework */; };
 		A8E269DE196332FE006DD5B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E269DD196332FE006DD5B9 /* CoreGraphics.framework */; };
@@ -17,30 +37,53 @@
 		A8E269EF196332FE006DD5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E269ED196332FE006DD5B9 /* Main.storyboard */; };
 		A8E269F7196332FE006DD5B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E269F6196332FE006DD5B9 /* Images.xcassets */; };
 		A8E26A141963339D006DD5B9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E26A131963339D006DD5B9 /* ExternalAccessory.framework */; };
-		A8E26A43196334F1006DD5B9 /* BBFiltering.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A17196334F1006DD5B9 /* BBFiltering.m */; };
-		A8E26A44196334F1006DD5B9 /* BBSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A19196334F1006DD5B9 /* BBSessionController.m */; };
-		A8E26A45196334F1006DD5B9 /* BBSyncCaptureMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A1C196334F1006DD5B9 /* BBSyncCaptureMessage.m */; };
-		A8E26A46196334F1006DD5B9 /* BBSyncFileTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A1E196334F1006DD5B9 /* BBSyncFileTransferClient.m */; };
-		A8E26A47196334F1006DD5B9 /* BBSyncStreamingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A21196334F1006DD5B9 /* BBSyncStreamingClient.m */; };
-		A8E26A48196334F1006DD5B9 /* HIDDataMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A25196334F1006DD5B9 /* HIDDataMessage.m */; };
-		A8E26A49196334F1006DD5B9 /* HIDGetReport.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A27196334F1006DD5B9 /* HIDGetReport.m */; };
-		A8E26A4A196334F1006DD5B9 /* HIDHandshake.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A29196334F1006DD5B9 /* HIDHandshake.m */; };
-		A8E26A4B196334F1006DD5B9 /* HIDMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A2B196334F1006DD5B9 /* HIDMessage.m */; };
-		A8E26A4C196334F1006DD5B9 /* HIDSetReport.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A2D196334F1006DD5B9 /* HIDSetReport.m */; };
-		A8E26A4D196334F1006DD5B9 /* HIDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A2F196334F1006DD5B9 /* HIDUtilities.m */; };
-		A8E26A4E196334F1006DD5B9 /* OBEXFileTransferFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A32196334F1006DD5B9 /* OBEXFileTransferFile.m */; };
-		A8E26A4F196334F1006DD5B9 /* OBEXFileTransferFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A34196334F1006DD5B9 /* OBEXFileTransferFolder.m */; };
-		A8E26A50196334F1006DD5B9 /* OBEXFileTransferFolderListing.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A36196334F1006DD5B9 /* OBEXFileTransferFolderListing.m */; };
-		A8E26A51196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A38196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.m */; };
-		A8E26A52196334F1006DD5B9 /* OBEXFileTransferHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A3A196334F1006DD5B9 /* OBEXFileTransferHeader.m */; };
-		A8E26A53196334F1006DD5B9 /* OBEXFileTransferItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A3C196334F1006DD5B9 /* OBEXFileTransferItem.m */; };
-		A8E26A54196334F1006DD5B9 /* OBEXFileTransferRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A3E196334F1006DD5B9 /* OBEXFileTransferRequest.m */; };
-		A8E26A55196334F1006DD5B9 /* OBEXFileTransferResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A40196334F1006DD5B9 /* OBEXFileTransferResponse.m */; };
-		A8E26A56196334F1006DD5B9 /* OBEXFileTransferUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A42196334F1006DD5B9 /* OBEXFileTransferUtilities.m */; };
 		A8E26A59196349AB006DD5B9 /* BBFileTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E26A58196349AB006DD5B9 /* BBFileTransferViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4102159F1A6C534100DB71EC /* BBFiltering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFiltering.h; sourceTree = "<group>"; };
+		410215A01A6C534100DB71EC /* BBFiltering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBFiltering.m; sourceTree = "<group>"; };
+		410215A11A6C534100DB71EC /* BBSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSessionController.h; sourceTree = "<group>"; };
+		410215A21A6C534100DB71EC /* BBSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSessionController.m; sourceTree = "<group>"; };
+		410215A31A6C534100DB71EC /* BBSyncSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncSDK.h; sourceTree = "<group>"; };
+		410215A41A6C534100DB71EC /* BBSyncCaptureMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncCaptureMessage.h; sourceTree = "<group>"; };
+		410215A51A6C534100DB71EC /* BBSyncCaptureMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncCaptureMessage.m; sourceTree = "<group>"; };
+		410215A61A6C534100DB71EC /* BBSyncFileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncFileTransferClient.h; sourceTree = "<group>"; };
+		410215A71A6C534100DB71EC /* BBSyncFileTransferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncFileTransferClient.m; sourceTree = "<group>"; };
+		410215A81A6C534100DB71EC /* BBSyncFileTransferClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncFileTransferClientDelegate.h; sourceTree = "<group>"; };
+		410215A91A6C534100DB71EC /* BBSyncStreamingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncStreamingClient.h; sourceTree = "<group>"; };
+		410215AA1A6C534100DB71EC /* BBSyncStreamingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncStreamingClient.m; sourceTree = "<group>"; };
+		410215AB1A6C534100DB71EC /* BBSyncStreamingClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncStreamingClientDelegate.h; sourceTree = "<group>"; };
+		410215AD1A6C534100DB71EC /* HIDDataMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDDataMessage.h; sourceTree = "<group>"; };
+		410215AE1A6C534100DB71EC /* HIDDataMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDDataMessage.m; sourceTree = "<group>"; };
+		410215AF1A6C534100DB71EC /* HIDGetReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDGetReport.h; sourceTree = "<group>"; };
+		410215B01A6C534100DB71EC /* HIDGetReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDGetReport.m; sourceTree = "<group>"; };
+		410215B11A6C534100DB71EC /* HIDHandshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDHandshake.h; sourceTree = "<group>"; };
+		410215B21A6C534100DB71EC /* HIDHandshake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDHandshake.m; sourceTree = "<group>"; };
+		410215B31A6C534100DB71EC /* HIDMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDMessage.h; sourceTree = "<group>"; };
+		410215B41A6C534100DB71EC /* HIDMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDMessage.m; sourceTree = "<group>"; };
+		410215B51A6C534100DB71EC /* HIDSetReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDSetReport.h; sourceTree = "<group>"; };
+		410215B61A6C534100DB71EC /* HIDSetReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDSetReport.m; sourceTree = "<group>"; };
+		410215B71A6C534100DB71EC /* HIDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDUtilities.h; sourceTree = "<group>"; };
+		410215B81A6C534100DB71EC /* HIDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDUtilities.m; sourceTree = "<group>"; };
+		410215BA1A6C534100DB71EC /* OBEXFileTransferFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFile.h; sourceTree = "<group>"; };
+		410215BB1A6C534100DB71EC /* OBEXFileTransferFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFile.m; sourceTree = "<group>"; };
+		410215BC1A6C534100DB71EC /* OBEXFileTransferFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolder.h; sourceTree = "<group>"; };
+		410215BD1A6C534100DB71EC /* OBEXFileTransferFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolder.m; sourceTree = "<group>"; };
+		410215BE1A6C534100DB71EC /* OBEXFileTransferFolderListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolderListing.h; sourceTree = "<group>"; };
+		410215BF1A6C534100DB71EC /* OBEXFileTransferFolderListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolderListing.m; sourceTree = "<group>"; };
+		410215C01A6C534100DB71EC /* OBEXFileTransferFolderListingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolderListingParser.h; sourceTree = "<group>"; };
+		410215C11A6C534100DB71EC /* OBEXFileTransferFolderListingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolderListingParser.m; sourceTree = "<group>"; };
+		410215C21A6C534100DB71EC /* OBEXFileTransferHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferHeader.h; sourceTree = "<group>"; };
+		410215C31A6C534100DB71EC /* OBEXFileTransferHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferHeader.m; sourceTree = "<group>"; };
+		410215C41A6C534100DB71EC /* OBEXFileTransferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferItem.h; sourceTree = "<group>"; };
+		410215C51A6C534100DB71EC /* OBEXFileTransferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferItem.m; sourceTree = "<group>"; };
+		410215C61A6C534100DB71EC /* OBEXFileTransferRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferRequest.h; sourceTree = "<group>"; };
+		410215C71A6C534100DB71EC /* OBEXFileTransferRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferRequest.m; sourceTree = "<group>"; };
+		410215C81A6C534100DB71EC /* OBEXFileTransferResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferResponse.h; sourceTree = "<group>"; };
+		410215C91A6C534100DB71EC /* OBEXFileTransferResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferResponse.m; sourceTree = "<group>"; };
+		410215CA1A6C534100DB71EC /* OBEXFileTransferUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferUtilities.h; sourceTree = "<group>"; };
+		410215CB1A6C534100DB71EC /* OBEXFileTransferUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferUtilities.m; sourceTree = "<group>"; };
 		A831276119635A7F0072815B /* BBStreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBStreamingViewController.h; sourceTree = "<group>"; };
 		A831276219635A7F0072815B /* BBStreamingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBStreamingViewController.m; sourceTree = "<group>"; };
 		A8E269D8196332FE006DD5B9 /* Sync SDK Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sync SDK Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +93,6 @@
 		A8E269E3196332FE006DD5B9 /* Sync SDK Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sync SDK Example-Info.plist"; sourceTree = "<group>"; };
 		A8E269E5196332FE006DD5B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8E269E7196332FE006DD5B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8E269E9196332FE006DD5B9 /* Sync SDK Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sync SDK Example-Prefix.pch"; sourceTree = "<group>"; };
 		A8E269EA196332FE006DD5B9 /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
 		A8E269EB196332FE006DD5B9 /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
 		A8E269EE196332FE006DD5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,49 +101,6 @@
 		A8E26A07196332FE006DD5B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8E26A09196332FE006DD5B9 /* Sync_SDK_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sync_SDK_ExampleTests.m; sourceTree = "<group>"; };
 		A8E26A131963339D006DD5B9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
-		A8E26A16196334F1006DD5B9 /* BBFiltering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFiltering.h; sourceTree = "<group>"; };
-		A8E26A17196334F1006DD5B9 /* BBFiltering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBFiltering.m; sourceTree = "<group>"; };
-		A8E26A18196334F1006DD5B9 /* BBSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSessionController.h; sourceTree = "<group>"; };
-		A8E26A19196334F1006DD5B9 /* BBSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSessionController.m; sourceTree = "<group>"; };
-		A8E26A1A196334F1006DD5B9 /* BBSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSync.h; sourceTree = "<group>"; };
-		A8E26A1B196334F1006DD5B9 /* BBSyncCaptureMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncCaptureMessage.h; sourceTree = "<group>"; };
-		A8E26A1C196334F1006DD5B9 /* BBSyncCaptureMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncCaptureMessage.m; sourceTree = "<group>"; };
-		A8E26A1D196334F1006DD5B9 /* BBSyncFileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncFileTransferClient.h; sourceTree = "<group>"; };
-		A8E26A1E196334F1006DD5B9 /* BBSyncFileTransferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncFileTransferClient.m; sourceTree = "<group>"; };
-		A8E26A1F196334F1006DD5B9 /* BBSyncFileTransferClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncFileTransferClientDelegate.h; sourceTree = "<group>"; };
-		A8E26A20196334F1006DD5B9 /* BBSyncStreamingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncStreamingClient.h; sourceTree = "<group>"; };
-		A8E26A21196334F1006DD5B9 /* BBSyncStreamingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSyncStreamingClient.m; sourceTree = "<group>"; };
-		A8E26A22196334F1006DD5B9 /* BBSyncStreamingClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSyncStreamingClientDelegate.h; sourceTree = "<group>"; };
-		A8E26A24196334F1006DD5B9 /* HIDDataMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDDataMessage.h; sourceTree = "<group>"; };
-		A8E26A25196334F1006DD5B9 /* HIDDataMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDDataMessage.m; sourceTree = "<group>"; };
-		A8E26A26196334F1006DD5B9 /* HIDGetReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDGetReport.h; sourceTree = "<group>"; };
-		A8E26A27196334F1006DD5B9 /* HIDGetReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDGetReport.m; sourceTree = "<group>"; };
-		A8E26A28196334F1006DD5B9 /* HIDHandshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDHandshake.h; sourceTree = "<group>"; };
-		A8E26A29196334F1006DD5B9 /* HIDHandshake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDHandshake.m; sourceTree = "<group>"; };
-		A8E26A2A196334F1006DD5B9 /* HIDMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDMessage.h; sourceTree = "<group>"; };
-		A8E26A2B196334F1006DD5B9 /* HIDMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDMessage.m; sourceTree = "<group>"; };
-		A8E26A2C196334F1006DD5B9 /* HIDSetReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDSetReport.h; sourceTree = "<group>"; };
-		A8E26A2D196334F1006DD5B9 /* HIDSetReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDSetReport.m; sourceTree = "<group>"; };
-		A8E26A2E196334F1006DD5B9 /* HIDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDUtilities.h; sourceTree = "<group>"; };
-		A8E26A2F196334F1006DD5B9 /* HIDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDUtilities.m; sourceTree = "<group>"; };
-		A8E26A31196334F1006DD5B9 /* OBEXFileTransferFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFile.h; sourceTree = "<group>"; };
-		A8E26A32196334F1006DD5B9 /* OBEXFileTransferFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFile.m; sourceTree = "<group>"; };
-		A8E26A33196334F1006DD5B9 /* OBEXFileTransferFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolder.h; sourceTree = "<group>"; };
-		A8E26A34196334F1006DD5B9 /* OBEXFileTransferFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolder.m; sourceTree = "<group>"; };
-		A8E26A35196334F1006DD5B9 /* OBEXFileTransferFolderListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolderListing.h; sourceTree = "<group>"; };
-		A8E26A36196334F1006DD5B9 /* OBEXFileTransferFolderListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolderListing.m; sourceTree = "<group>"; };
-		A8E26A37196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferFolderListingParser.h; sourceTree = "<group>"; };
-		A8E26A38196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferFolderListingParser.m; sourceTree = "<group>"; };
-		A8E26A39196334F1006DD5B9 /* OBEXFileTransferHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferHeader.h; sourceTree = "<group>"; };
-		A8E26A3A196334F1006DD5B9 /* OBEXFileTransferHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferHeader.m; sourceTree = "<group>"; };
-		A8E26A3B196334F1006DD5B9 /* OBEXFileTransferItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferItem.h; sourceTree = "<group>"; };
-		A8E26A3C196334F1006DD5B9 /* OBEXFileTransferItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferItem.m; sourceTree = "<group>"; };
-		A8E26A3D196334F1006DD5B9 /* OBEXFileTransferRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferRequest.h; sourceTree = "<group>"; };
-		A8E26A3E196334F1006DD5B9 /* OBEXFileTransferRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferRequest.m; sourceTree = "<group>"; };
-		A8E26A3F196334F1006DD5B9 /* OBEXFileTransferResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferResponse.h; sourceTree = "<group>"; };
-		A8E26A40196334F1006DD5B9 /* OBEXFileTransferResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferResponse.m; sourceTree = "<group>"; };
-		A8E26A41196334F1006DD5B9 /* OBEXFileTransferUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBEXFileTransferUtilities.h; sourceTree = "<group>"; };
-		A8E26A42196334F1006DD5B9 /* OBEXFileTransferUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBEXFileTransferUtilities.m; sourceTree = "<group>"; };
 		A8E26A57196349AB006DD5B9 /* BBFileTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBFileTransferViewController.h; sourceTree = "<group>"; };
 		A8E26A58196349AB006DD5B9 /* BBFileTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBFileTransferViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +120,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4102159E1A6C534100DB71EC /* BBSyncSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4102159F1A6C534100DB71EC /* BBFiltering.h */,
+				410215A01A6C534100DB71EC /* BBFiltering.m */,
+				410215A11A6C534100DB71EC /* BBSessionController.h */,
+				410215A21A6C534100DB71EC /* BBSessionController.m */,
+				410215A31A6C534100DB71EC /* BBSyncSDK.h */,
+				410215A41A6C534100DB71EC /* BBSyncCaptureMessage.h */,
+				410215A51A6C534100DB71EC /* BBSyncCaptureMessage.m */,
+				410215A61A6C534100DB71EC /* BBSyncFileTransferClient.h */,
+				410215A71A6C534100DB71EC /* BBSyncFileTransferClient.m */,
+				410215A81A6C534100DB71EC /* BBSyncFileTransferClientDelegate.h */,
+				410215A91A6C534100DB71EC /* BBSyncStreamingClient.h */,
+				410215AA1A6C534100DB71EC /* BBSyncStreamingClient.m */,
+				410215AB1A6C534100DB71EC /* BBSyncStreamingClientDelegate.h */,
+				410215AC1A6C534100DB71EC /* HID */,
+				410215B91A6C534100DB71EC /* OBEX */,
+			);
+			name = BBSyncSDK;
+			path = ../../BBSyncSDK;
+			sourceTree = "<group>";
+		};
+		410215AC1A6C534100DB71EC /* HID */ = {
+			isa = PBXGroup;
+			children = (
+				410215AD1A6C534100DB71EC /* HIDDataMessage.h */,
+				410215AE1A6C534100DB71EC /* HIDDataMessage.m */,
+				410215AF1A6C534100DB71EC /* HIDGetReport.h */,
+				410215B01A6C534100DB71EC /* HIDGetReport.m */,
+				410215B11A6C534100DB71EC /* HIDHandshake.h */,
+				410215B21A6C534100DB71EC /* HIDHandshake.m */,
+				410215B31A6C534100DB71EC /* HIDMessage.h */,
+				410215B41A6C534100DB71EC /* HIDMessage.m */,
+				410215B51A6C534100DB71EC /* HIDSetReport.h */,
+				410215B61A6C534100DB71EC /* HIDSetReport.m */,
+				410215B71A6C534100DB71EC /* HIDUtilities.h */,
+				410215B81A6C534100DB71EC /* HIDUtilities.m */,
+			);
+			path = HID;
+			sourceTree = "<group>";
+		};
+		410215B91A6C534100DB71EC /* OBEX */ = {
+			isa = PBXGroup;
+			children = (
+				410215BA1A6C534100DB71EC /* OBEXFileTransferFile.h */,
+				410215BB1A6C534100DB71EC /* OBEXFileTransferFile.m */,
+				410215BC1A6C534100DB71EC /* OBEXFileTransferFolder.h */,
+				410215BD1A6C534100DB71EC /* OBEXFileTransferFolder.m */,
+				410215BE1A6C534100DB71EC /* OBEXFileTransferFolderListing.h */,
+				410215BF1A6C534100DB71EC /* OBEXFileTransferFolderListing.m */,
+				410215C01A6C534100DB71EC /* OBEXFileTransferFolderListingParser.h */,
+				410215C11A6C534100DB71EC /* OBEXFileTransferFolderListingParser.m */,
+				410215C21A6C534100DB71EC /* OBEXFileTransferHeader.h */,
+				410215C31A6C534100DB71EC /* OBEXFileTransferHeader.m */,
+				410215C41A6C534100DB71EC /* OBEXFileTransferItem.h */,
+				410215C51A6C534100DB71EC /* OBEXFileTransferItem.m */,
+				410215C61A6C534100DB71EC /* OBEXFileTransferRequest.h */,
+				410215C71A6C534100DB71EC /* OBEXFileTransferRequest.m */,
+				410215C81A6C534100DB71EC /* OBEXFileTransferResponse.h */,
+				410215C91A6C534100DB71EC /* OBEXFileTransferResponse.m */,
+				410215CA1A6C534100DB71EC /* OBEXFileTransferUtilities.h */,
+				410215CB1A6C534100DB71EC /* OBEXFileTransferUtilities.m */,
+			);
+			path = OBEX;
+			sourceTree = "<group>";
+		};
 		A8E269CF196332FE006DD5B9 = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +225,7 @@
 				A8E26A58196349AB006DD5B9 /* BBFileTransferViewController.m */,
 				A831276119635A7F0072815B /* BBStreamingViewController.h */,
 				A831276219635A7F0072815B /* BBStreamingViewController.m */,
-				A8E26A15196334F1006DD5B9 /* BBSync */,
+				4102159E1A6C534100DB71EC /* BBSyncSDK */,
 				A8E269F6196332FE006DD5B9 /* Images.xcassets */,
 				A8E269ED196332FE006DD5B9 /* Main.storyboard */,
 				A8E269E2196332FE006DD5B9 /* Supporting Files */,
@@ -173,7 +239,6 @@
 				A8E269E3196332FE006DD5B9 /* Sync SDK Example-Info.plist */,
 				A8E269E4196332FE006DD5B9 /* InfoPlist.strings */,
 				A8E269E7196332FE006DD5B9 /* main.m */,
-				A8E269E9196332FE006DD5B9 /* Sync SDK Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,73 +259,6 @@
 				A8E26A06196332FE006DD5B9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A8E26A15196334F1006DD5B9 /* BBSync */ = {
-			isa = PBXGroup;
-			children = (
-				A8E26A16196334F1006DD5B9 /* BBFiltering.h */,
-				A8E26A17196334F1006DD5B9 /* BBFiltering.m */,
-				A8E26A18196334F1006DD5B9 /* BBSessionController.h */,
-				A8E26A19196334F1006DD5B9 /* BBSessionController.m */,
-				A8E26A1A196334F1006DD5B9 /* BBSync.h */,
-				A8E26A1B196334F1006DD5B9 /* BBSyncCaptureMessage.h */,
-				A8E26A1C196334F1006DD5B9 /* BBSyncCaptureMessage.m */,
-				A8E26A1D196334F1006DD5B9 /* BBSyncFileTransferClient.h */,
-				A8E26A1E196334F1006DD5B9 /* BBSyncFileTransferClient.m */,
-				A8E26A1F196334F1006DD5B9 /* BBSyncFileTransferClientDelegate.h */,
-				A8E26A20196334F1006DD5B9 /* BBSyncStreamingClient.h */,
-				A8E26A21196334F1006DD5B9 /* BBSyncStreamingClient.m */,
-				A8E26A22196334F1006DD5B9 /* BBSyncStreamingClientDelegate.h */,
-				A8E26A23196334F1006DD5B9 /* HID */,
-				A8E26A30196334F1006DD5B9 /* OBEX */,
-			);
-			name = BBSync;
-			path = ../../BBSync;
-			sourceTree = "<group>";
-		};
-		A8E26A23196334F1006DD5B9 /* HID */ = {
-			isa = PBXGroup;
-			children = (
-				A8E26A24196334F1006DD5B9 /* HIDDataMessage.h */,
-				A8E26A25196334F1006DD5B9 /* HIDDataMessage.m */,
-				A8E26A26196334F1006DD5B9 /* HIDGetReport.h */,
-				A8E26A27196334F1006DD5B9 /* HIDGetReport.m */,
-				A8E26A28196334F1006DD5B9 /* HIDHandshake.h */,
-				A8E26A29196334F1006DD5B9 /* HIDHandshake.m */,
-				A8E26A2A196334F1006DD5B9 /* HIDMessage.h */,
-				A8E26A2B196334F1006DD5B9 /* HIDMessage.m */,
-				A8E26A2C196334F1006DD5B9 /* HIDSetReport.h */,
-				A8E26A2D196334F1006DD5B9 /* HIDSetReport.m */,
-				A8E26A2E196334F1006DD5B9 /* HIDUtilities.h */,
-				A8E26A2F196334F1006DD5B9 /* HIDUtilities.m */,
-			);
-			path = HID;
-			sourceTree = "<group>";
-		};
-		A8E26A30196334F1006DD5B9 /* OBEX */ = {
-			isa = PBXGroup;
-			children = (
-				A8E26A31196334F1006DD5B9 /* OBEXFileTransferFile.h */,
-				A8E26A32196334F1006DD5B9 /* OBEXFileTransferFile.m */,
-				A8E26A33196334F1006DD5B9 /* OBEXFileTransferFolder.h */,
-				A8E26A34196334F1006DD5B9 /* OBEXFileTransferFolder.m */,
-				A8E26A35196334F1006DD5B9 /* OBEXFileTransferFolderListing.h */,
-				A8E26A36196334F1006DD5B9 /* OBEXFileTransferFolderListing.m */,
-				A8E26A37196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.h */,
-				A8E26A38196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.m */,
-				A8E26A39196334F1006DD5B9 /* OBEXFileTransferHeader.h */,
-				A8E26A3A196334F1006DD5B9 /* OBEXFileTransferHeader.m */,
-				A8E26A3B196334F1006DD5B9 /* OBEXFileTransferItem.h */,
-				A8E26A3C196334F1006DD5B9 /* OBEXFileTransferItem.m */,
-				A8E26A3D196334F1006DD5B9 /* OBEXFileTransferRequest.h */,
-				A8E26A3E196334F1006DD5B9 /* OBEXFileTransferRequest.m */,
-				A8E26A3F196334F1006DD5B9 /* OBEXFileTransferResponse.h */,
-				A8E26A40196334F1006DD5B9 /* OBEXFileTransferResponse.m */,
-				A8E26A41196334F1006DD5B9 /* OBEXFileTransferUtilities.h */,
-				A8E26A42196334F1006DD5B9 /* OBEXFileTransferUtilities.m */,
-			);
-			path = OBEX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,29 +327,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E26A55196334F1006DD5B9 /* OBEXFileTransferResponse.m in Sources */,
+				410215DE1A6C534100DB71EC /* OBEXFileTransferResponse.m in Sources */,
+				410215CE1A6C534100DB71EC /* BBSyncCaptureMessage.m in Sources */,
+				410215DC1A6C534100DB71EC /* OBEXFileTransferItem.m in Sources */,
+				410215DD1A6C534100DB71EC /* OBEXFileTransferRequest.m in Sources */,
+				410215CD1A6C534100DB71EC /* BBSessionController.m in Sources */,
+				410215DF1A6C534100DB71EC /* OBEXFileTransferUtilities.m in Sources */,
+				410215CF1A6C534100DB71EC /* BBSyncFileTransferClient.m in Sources */,
+				410215D11A6C534100DB71EC /* HIDDataMessage.m in Sources */,
+				410215D71A6C534100DB71EC /* OBEXFileTransferFile.m in Sources */,
+				410215D91A6C534100DB71EC /* OBEXFileTransferFolderListing.m in Sources */,
+				410215D21A6C534100DB71EC /* HIDGetReport.m in Sources */,
+				410215DB1A6C534100DB71EC /* OBEXFileTransferHeader.m in Sources */,
+				410215D81A6C534100DB71EC /* OBEXFileTransferFolder.m in Sources */,
+				410215D31A6C534100DB71EC /* HIDHandshake.m in Sources */,
+				410215D01A6C534100DB71EC /* BBSyncStreamingClient.m in Sources */,
 				A8E26A59196349AB006DD5B9 /* BBFileTransferViewController.m in Sources */,
-				A8E26A45196334F1006DD5B9 /* BBSyncCaptureMessage.m in Sources */,
-				A8E26A53196334F1006DD5B9 /* OBEXFileTransferItem.m in Sources */,
-				A8E26A54196334F1006DD5B9 /* OBEXFileTransferRequest.m in Sources */,
-				A8E26A44196334F1006DD5B9 /* BBSessionController.m in Sources */,
-				A8E26A56196334F1006DD5B9 /* OBEXFileTransferUtilities.m in Sources */,
-				A8E26A46196334F1006DD5B9 /* BBSyncFileTransferClient.m in Sources */,
-				A8E26A48196334F1006DD5B9 /* HIDDataMessage.m in Sources */,
-				A8E26A4E196334F1006DD5B9 /* OBEXFileTransferFile.m in Sources */,
-				A8E26A50196334F1006DD5B9 /* OBEXFileTransferFolderListing.m in Sources */,
 				A831276319635A7F0072815B /* BBStreamingViewController.m in Sources */,
-				A8E26A49196334F1006DD5B9 /* HIDGetReport.m in Sources */,
-				A8E26A52196334F1006DD5B9 /* OBEXFileTransferHeader.m in Sources */,
-				A8E26A4F196334F1006DD5B9 /* OBEXFileTransferFolder.m in Sources */,
-				A8E26A4A196334F1006DD5B9 /* HIDHandshake.m in Sources */,
-				A8E26A47196334F1006DD5B9 /* BBSyncStreamingClient.m in Sources */,
+				410215D61A6C534100DB71EC /* HIDUtilities.m in Sources */,
+				410215D41A6C534100DB71EC /* HIDMessage.m in Sources */,
+				410215D51A6C534100DB71EC /* HIDSetReport.m in Sources */,
 				A8E269EC196332FE006DD5B9 /* BBAppDelegate.m in Sources */,
-				A8E26A4D196334F1006DD5B9 /* HIDUtilities.m in Sources */,
-				A8E26A4B196334F1006DD5B9 /* HIDMessage.m in Sources */,
-				A8E26A4C196334F1006DD5B9 /* HIDSetReport.m in Sources */,
-				A8E26A43196334F1006DD5B9 /* BBFiltering.m in Sources */,
-				A8E26A51196334F1006DD5B9 /* OBEXFileTransferFolderListingParser.m in Sources */,
+				410215CC1A6C534100DB71EC /* BBFiltering.m in Sources */,
+				410215DA1A6C534100DB71EC /* OBEXFileTransferFolderListingParser.m in Sources */,
 				A8E269E8196332FE006DD5B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +459,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sync SDK Example/Sync SDK Example-Prefix.pch";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Sync SDK Example/Sync SDK Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -474,8 +473,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sync SDK Example/Sync SDK Example-Prefix.pch";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Sync SDK Example/Sync SDK Example-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

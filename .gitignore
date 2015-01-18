@@ -24,3 +24,4 @@ Project\ Files/*
 *.xcbkptlist
 *.xscheme
 xcschememanagement.plist
+xcuserdata

@@ -18,6 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#import <Foundation/Foundation.h>
+
 static char const CONTINUE = 0x90;
 static char const SUCCESS = 0xA0;
 static char const CREATED = 0xA1;

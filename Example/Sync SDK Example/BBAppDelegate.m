@@ -7,7 +7,7 @@
 //
 
 #import "BBAppDelegate.h"
-#import "BBSync.h"
+#import "BBSyncSDK.h"
 
 @implementation BBAppDelegate
 
