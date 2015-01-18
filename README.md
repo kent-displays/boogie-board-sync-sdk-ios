@@ -16,7 +16,7 @@ Download the entire project directory and try out the included example project.
 
 #### Option 2: Include library
 
-1. Include this library in your current project by adding all the files under BBSync to your current project's target.
+1. Include this library in your current project by adding all the files under BBSyncSDK to your current project's target.
 2. Make sure to add the following frameworks to your project's target under Build Phases.
 
 	![frameworks-image](http://i.imgur.com/PeiSoT6.png)
@@ -28,7 +28,7 @@ Download the entire project directory and try out the included example project.
 4. In your AppDelegate.m file import the Sync SDK library.
 
 	```
-	#import "BBSync.h"
+	#import "BBSyncSDK.h"
 	```	
 5. Set up the library to automatically find and connect to a Boogie Board Sync by placing the following code in your App Delegate's application:didFinishLaunchingWithOptions: method.
 
