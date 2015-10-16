@@ -76,14 +76,10 @@ NSString * const kBBSyncFileTransferErrorDomain = @"BBSyncFileTransferErrorDomai
         NSLog(@"Creating new session.");
         [[self.session inputStream] setDelegate:self];
         [[self.session outputStream] setDelegate:self];
-        
-        // schedule on the main run loop
-        dispatch_async(dispatch_get_main_queue(), ^ {
-            [[self.session inputStream] scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-            [[self.session inputStream] open];
-            [[self.session outputStream] scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-            [[self.session outputStream] open];
-        });
+        [[self.session inputStream] scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+        [[self.session inputStream] open];
+        [[self.session outputStream] scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+        [[self.session outputStream] open];
     } else {
         NSLog(@"Creating FTP session failed.");
     }

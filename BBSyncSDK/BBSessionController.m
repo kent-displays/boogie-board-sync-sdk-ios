@@ -105,7 +105,10 @@ NSString * const BBSessionControllerAccessoryKey = @"BBSessionControllerAccessor
         [ftpClient createSessionWithAccessory:accessory];
         [streamingClient createSessionWithAccessory:accessory];
         
-        [[NSNotificationCenter defaultCenter] postNotificationName:BBSessionControllerDidConnect object:self userInfo:@{BBSessionControllerAccessoryKey:accessory}];
+        // With iOS 9 trying to immediately talk to the session causes errors.
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(200 * NSEC_PER_MSEC)), dispatch_get_main_queue(), ^{
+            [[NSNotificationCenter defaultCenter] postNotificationName:BBSessionControllerDidConnect object:self userInfo:@{BBSessionControllerAccessoryKey:accessory}];
+        });
     }
 }
 
